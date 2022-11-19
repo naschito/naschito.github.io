@@ -1,0 +1,224 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    min-height: 100vh;
+    margin: 0%;
+    position: relative;
+    background-color: #333;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.title-h1 { 
+
+    font-size: 3em;
+    background-color: royalblue;
+    padding: 1vh 0;
+    text-align: center;
+    margin-bottom: 1em;
+   
+} 
+
+
+.text
+{
+    width: auto;
+    font-size: 20px;
+}
+
+
+.text-p
+{
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 50px;
+    font-weight: 100;
+    padding-left: 5em;
+    padding-right: 5em;
+    
+}
+ 
+
+.imagen
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-html
+{
+    max-width: 20em;
+    background-color: 0;
+}
+
+
+.footer
+{   
+   bottom: 0;
+   background-color: lightcoral;
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ul 
+{
+    
+    padding: 0%;
+    margin: 0%;
+    display:flex;
+    font-size: 3em;
+    background-color: rgb(109, 140, 235);
+    justify-content: space-between;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active
+{
+    box-sizing: border-box;
+    display: block;
+   padding-left: 1em;
+    
+    
+}
+
+.contact
+{
+    
+    display: block;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.about
+{
+   padding-right: 1em;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+.about-a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 4vh;
+   
+}
+
+
+.active-a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 4vh;
+    
+}
+
+
+.contact-a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 4vh;
+
+}
+
+.about-p
+{
+margin-top: 30em;
+text-align: center;
+width: 100%;
+padding-left: 35%;
+padding-right: 35%;
+
+}
+
+
+
+
+
+.contact-p
+{
+    text-align: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .div-input_text
+  {
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 1vh;
+    margin-left: 30%;
+    width: 80vh;
+    height: 30vh;
+    display: flex;
+ }
+
+ .div-input_submit
+ {
+    display: block;
+    align-items: center;
+    padding-left: 49%;
+    width: 40vh;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 4em;
+ }
